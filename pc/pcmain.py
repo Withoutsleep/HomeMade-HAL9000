@@ -1,6 +1,5 @@
 import requests
 import voice
-import captura
 import os
 import requests
 from flask import Flask, request
