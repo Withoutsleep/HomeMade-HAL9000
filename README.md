@@ -20,7 +20,7 @@ core.py
 
 # Más info
 
-Para cada uno de estos archivos hay que descargar las librerías que usan con pip, por ejemplo, y en cada uno de estos tienes que modificar la variable IP (existen 2: ippc y ipraspberry). Simplemente tienes que conseguir la IP de Tailscale de estos dos con tailscale status e insertarlas en el código.
+Para cada uno de estos archivos hay que descargar las dependencias que usan con pip, y en cada uno de estos tienes que modificar la variable IP (existen 2: ippc y ipraspberry). Simplemente tienes que conseguir la IP de Tailscale de estos dos con tailscale status e insertarlas en el código.
 
 # LM-STUDIO
 
