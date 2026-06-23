@@ -11,12 +11,16 @@ pcmain.py
 transcribe.py
 voice.py
 
+Para descargar las dependencias: pip install -r requirements_pc.txt
+
 Por tema de copyright, también tienes que crear un audio llamado hal_voice.wav, con un audio de 0:11 segundos (más o menos) con la voz que quieras usar o la voz de HAL mismo. Por desgracia yo no puedo publicar el archivo; el archivo lo tienes que dejar en la raíz del sistema.
 
 # .PY para Raspberry
 ear.py
 raspberrymain.py
 core.py
+
+Para descargar las dependencias: pip install -r requirements_ear.txt pip install -r requirements_raspberrymain.txt
 
 # Más info
 
@@ -36,4 +40,4 @@ No hay mucho que decir. Solo tienes que conectar el LED rojo de HAL al pin GPIO 
 
 # Nota final
 
-Este proyecto es modular y puedes agregar lo que quieras, así que no te desanimes, ¡y prueba a ver qué puedes hacer!
+Este proyecto es modular y puedes agregar lo que quieras, así que no te desanimes, ¡y prueba a ver qué puedes hacer!, Si quieres cambiar el comportamiento de hal te recomiendo modificar pc/memory/context.txt
