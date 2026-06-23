@@ -9,7 +9,7 @@ IP_RASPBERRY="100.x.x.x"    #<--- AQUI ESCRIBES TU IP DE TAILSCALE DE TU RASPBER
 print("Cargando modelo XTTS...")
 tts = TTS(
     "tts_models/es/css10/vits",  #"tts_models/multilingual/multi-dataset/xtts_v2" <--- modelo secundario
-    gpu=False
+    gpu=False #Te lo recomiendo cambiar si tu gpu lo adminte o no tienes buen cpu
 )
 
 print("Modelo cargado")
