@@ -43,3 +43,8 @@ No hay mucho que decir. Solo tienes que conectar el LED rojo de HAL al pin GPIO 
 # Nota final
 
 Este proyecto es modular y puedes agregar lo que quieras, así que no te desanimes, ¡y prueba a ver qué puedes hacer!, Si quieres cambiar el comportamiento de hal te recomiendo modificar pc/memory/context.txt
+
+# Vídeo del proyecto
+
+Puedes ver un poco más aquí:
+https://www.youtube.com/watch?v=KlUB3jD_bqU&t=2s
