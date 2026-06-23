@@ -1,18 +1,39 @@
 # HomeMade-HAL9000
-Este proyecto esta diseñado por withoutsleep y puedes usarlo como tu quieras :), eso si, si puedes dame creditos porfa :P  Este proyecto trata de diferentes componentes (algunos que s eponen en la raspberry pi y otros en el PC) para poder tener una comunicación estable entre los dos y aparte para usarlo como mini asistente IA
 
+Este proyecto está diseñado por withoutsleep y puedes usarlo como tú quieras :), eso sí, si puedes dame créditos porfa :P. Este proyecto trata de diferentes componentes (algunos que se ponen en la Raspberry Pi y otros en el PC) para poder tener una comunicación estable entre los dos y, aparte, usarlo como mini asistente IA.
 
-# Como preparar tu HAL
-Esto es facil, primero de todo, tienes que descargar todos los archivos teniendo en cuenta cuales van en la raspberry pi y cuales en el PC, para comenzar.
+# Cómo preparar tu HAL
+
+Esto es fácil. Primero de todo, tienes que descargar todos los archivos teniendo en cuenta cuáles van en la Raspberry Pi y cuáles en el PC, para comenzar.
 
 # .PY para PC:
--pcmain.py
--transcribe.py
--voice.py
+pcmain.py
+transcribe.py
+voice.py
 
-Por tema de copytight, también tienes que crear un audio llamado hal_voice.wav, con un audio de 0:11 segundos (mas o menos) con la voz que quieras usar o la voz de hal mismo. Por desgracia yo no puedo publicar el archivo, el archivo lo tienes que dejar en la raíz del sistema
+Por tema de copyright, también tienes que crear un audio llamado hal_voice.wav, con un audio de 0:11 segundos (más o menos) con la voz que quieras usar o la voz de HAL mismo. Por desgracia yo no puedo publicar el archivo; el archivo lo tienes que dejar en la raíz del sistema.
 
-# .PY para raspberry
--ear.py
--raspberrymain.py
+# .PY para Raspberry
+ear.py
+raspberrymain.py
+core.py
 
+# Más info
+
+Para cada uno de estos archivos hay que descargar las librerías que usan con pip, por ejemplo, y en cada uno de estos tienes que modificar la variable IP (existen 2: ippc y ipraspberry). Simplemente tienes que conseguir la IP de Tailscale de estos dos con tailscale status e insertarlas en el código.
+
+# LM-STUDIO
+
+Para que el proyecto te funcione, tienes que instalar LM Studio y cargar el modelo de IA que quieres usar.
+
+# Ejecutarlo
+
+Una vez tengas todo hecho, tienes que ejecutar en la Raspberry Pi ear.py y en el PC transcribe.py. Si los dos funcionan, simplemente picando al botón de HAL (si no quieres usar el botón puedes modificar ear.py), puedes preguntarle cualquier cosa :)
+
+# Montaje
+
+No hay mucho que decir. Solo tienes que conectar el LED rojo de HAL al pin GPIO 17 (o modificar el código core.py para usar otro GPIO) y para conectar el botón tienes que usar el pin GPIO 27 (o modificar el código de ear.py para usar otro GPIO).
+
+# Nota final
+
+Este proyecto es modular y puedes agregar lo que quieras, así que no te desanimes, ¡y prueba a ver qué puedes hacer!
