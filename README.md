@@ -1,5 +1,7 @@
 # HomeMade-HAL9000
 
+![HAL 9000](images/hal.jpeg)
+
 Este proyecto está diseñado por withoutsleep y puedes usarlo como tú quieras :), eso sí, si puedes dame créditos porfa :P. Este proyecto trata de diferentes componentes (algunos que se ponen en la Raspberry Pi y otros en el PC) para poder tener una comunicación estable entre los dos y, aparte, usarlo como mini asistente IA.
 
 # Cómo preparar tu HAL
